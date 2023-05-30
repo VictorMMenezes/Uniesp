@@ -25,5 +25,7 @@ public class ItemProduto {
     @Column(name = "quantidade")
     private int quantidade;
 
+    public void setCarrinhoDeCompras(CarrinhoDeCompras carrinho) {
+    }
 
 }

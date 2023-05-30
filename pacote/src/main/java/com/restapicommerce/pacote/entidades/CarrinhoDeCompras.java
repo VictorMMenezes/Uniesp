@@ -32,4 +32,13 @@ public class CarrinhoDeCompras {
     @Column(name = "dataEntrada")
     private Date dataEntrada;
 
+    public Object getItemProdutos() {
+        return null;
+    }
+
+    public Object getProdutos() {
+        return null;
+    }
+
+
 }

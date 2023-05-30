@@ -30,4 +30,36 @@ public class Produto {
     @Column(name = "qtdEstoque")
     private int qtdEstoque;
 
+     public Long getIdProduto() {
+        return idProduto;
+    }
+
+    public void setIdProduto(Long idProduto) {
+        this.idProduto = idProduto;
+    }
+
+    public String getNomeProduto() {
+        return nomeProduto;
+    }
+
+    public void setNomeProduto(String nomeProduto) {
+        this.nomeProduto = nomeProduto;
+    }
+
+    public float getPrecoProduto() {
+        return precoProduto;
+    }
+
+    public void setPrecoProduto(float precoProduto) {
+        this.precoProduto = precoProduto;
+    }
+
+    public int getQtdEstoque() {
+        return qtdEstoque;
+    }
+
+    public void setQtdEstoque(int qtdEstoque) {
+        this.qtdEstoque = qtdEstoque;
+    }
+
 }
